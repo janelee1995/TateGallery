@@ -1,0 +1,70 @@
+<div id ="main_header">
+
+<h3 id = "gallery_title">{{page_heading}} </h3>
+
+  <div id ="explore_header">
+    {{#each artworks}}
+
+        <a class ="image_selection" href="#" id ="{{thumbnailUrl}}" name ="{{all_artists}}" alt="{{title}}">
+          <figure id =image_wrapper>
+            <img class ="img" src="{{thumbnailUrl}}" id ="{{thumbnailUrl}}" alt="{{title}}">
+            <p id="artist_name"> {{all_artists}}</p>
+          </figure>
+        </a>
+
+    {{/each}}
+  </div>
+</div>
+
+<div id ="load_art">
+<button id="random" name="random"><img src ="../images/filter.png" height="30px" width="30px">
+</button>
+
+
+  <h3 id ="artworktitle"></h3>
+  <div id ="container">
+    <figure id ="frame">
+      <img class ="image_selection1 image blur" src="" id ="main_outer" alt="">
+      <img class ="image_selection1 image" src="" id ="main" alt="">
+    </figure>
+  </div>
+
+  <div id ="filters">
+      <figure>
+        <img class ="image_selection2 none"  src="" id ="none" width="150" height="150" alt="">
+      </figure>
+      <figure>
+        <img class ="image_selection2 hue"  src="" id ="hue" width="150" height="150" alt="">
+      </figure>
+      <figure>
+        <img class ="image_selection2 blur" src="" id ="blur" width="150" height="150" alt="">
+      </figure>
+      <figure>
+        <img class ="image_selection2 contrast" src="" id ="contrast" width="150" height="150" alt="">
+      </figure>
+      <figure>
+        <img class ="image_selection2 sepia" src="" id ="sepia" width="150" height="150" alt="">
+      </figure>
+      <figure>
+        <img class ="image_selection2 invert" src="" id ="invert" width="150" height="150" alt="">
+      </figure>
+      <figure>
+        <img class ="image_selection2 greyscale" src="" id ="greyscale" width="150" height="150" alt="">
+      </figure>
+      <figure>
+        <img class ="image_selection2 saturate" src="" id ="saturate" width="150" height="150" alt="">
+      </figure>
+      <figure>
+        <img class ="image_selection2 opacity" src="" id ="opacity" width="150" height="150" alt="">
+      </figure>
+
+  </div>
+
+
+  <div id ="artistInformation">
+  </div>
+  <div id ="artistInformation1">
+  </div>
+
+
+</div>

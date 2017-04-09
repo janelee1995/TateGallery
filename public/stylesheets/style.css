@@ -1,0 +1,421 @@
+
+div {
+  font-size: 0;
+}
+a {
+  color: grey;
+}
+a:hover {
+  color: white;
+}
+.menu_list{
+  position:relative;
+  float:right;
+  text-align: right;
+  margin:1%;
+  font-size: 18px;
+  width:auto;
+  color:#E3E3E3;
+  text-decoration: underline;
+}
+
+#explore_header{
+
+  height:auto;
+  padding:0.5%;
+  width:97%;
+
+}
+#gallery_header{
+  display: none;
+  visibility: hidden;
+  margin-top:20%;
+  height:auto;
+  padding:0.5%;
+  width:97%;
+
+}
+#main_header{
+
+    width:99%;
+
+    height:auto;
+    padding:0.5%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.65em;
+  margin: 0 0 30px;
+}
+
+
+a {
+  font-size: 16px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(25% - 6px);
+  margin-right: 8px;
+}
+
+a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+a:hover img {
+  transform: scale(1.15);
+}
+
+figure {
+  margin: 0;
+  padding:0;
+}
+
+#gallery_title{
+  position:relative;
+  font-weight: bold;
+  color:#416BA6;
+  margin-top: 12%;
+  margin-right: 50%;
+
+  z-index: 1;
+  font-size:80px;
+  font-family:geosanslight;
+
+
+}
+
+.img{
+    width:100%;
+    height:40%;
+    transition: transform .3s ease-in-out;
+
+}
+
+.img2{
+    width:40%;
+    height:45%;
+    transition: transform .3s ease-in-out;
+
+}
+
+.p a {
+  display: inline;
+  font-size: 13px;
+  margin: 0;
+}
+
+.p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 100px;
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float:right;
+    text-align: right;
+
+    font-size: 18px;
+    width:auto;
+    margin-top: 1%;
+    color:#FC4349;
+    text-decoration: underline;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 50%;
+    margin-top: 20%;
+    padding:0px;
+    border:solid black 2px;
+    text-align: center;
+    background-color: #f9f9f9
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+      width: auto;
+
+      float:left;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#mainImage{
+  margin-left:30%;
+  margin-top:10%;
+
+  border:solid black 2px;
+
+}
+
+
+#artworktitle{
+  font-size: 30px;
+  color:white;
+}
+#load_art{
+  width:90%;
+  height:auto;
+  min-height:100%;
+  visibility: visible;
+  display:none;
+  border-radius: 20px;
+  margin:2%;
+  padding:2%;
+  background-color: grey;
+   background: -webkit-linear-gradient(grey, black); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(grey, black); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(grey, black); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(grey, black); /* Standard syntax */
+  position: relative;
+}
+#load_art1{
+  width:90%;
+  height:auto;
+  min-height:100%;
+  display: none;
+  visibility: hidden;
+  border-radius: 20px;
+  margin:2%;
+  padding:2%;
+  background-color: grey;
+   background: -webkit-linear-gradient(grey, black); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(grey, black); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(grey, black); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(grey, black); /* Standard syntax */
+  position: relative;
+}
+
+#content_container{
+  float:right;
+height:auto;
+border:solid white 2px;
+  width:40%;
+}
+
+#filters{
+  margin-top: 1%;
+  width:50%;
+  float:right;
+
+
+}
+
+
+#image_selection1{
+  margin:1%;
+  float:left;
+}
+#image_selection2{
+  margin-top:2%;
+  float:left;
+}
+
+
+.image {
+    position: absolute;
+
+}
+
+
+
+#main{
+float:left;
+margin-top: 10%;
+margin-left: 5%;
+
+border:solid black 5px;
+
+}
+#main_outer{
+  float:left;
+  margin-top: 1%;
+  margin-left: 10%;
+
+
+
+}
+
+
+#image_wrapper{
+  padding:2%;
+  height:auto;
+  width:auto;
+}
+#image_wrapper_home{
+  padding:2%;
+
+
+
+}
+#oneArtist{
+  font-size:20;
+}
+#oneArtistH3{
+    font-size:30;
+}
+#artist_name{
+
+  color:white;
+  text-decoration: underline;;
+  width:auto;
+  margin:0;
+  position:relative;;
+  height:auto;
+}
+
+.thumbnails{
+  float:left;
+
+
+}
+#search {
+  text-align: center;
+  width:300px;
+  height: 40px;
+  font-size:1.5em;
+  clear: right;
+  margin-bottom: 5%;
+  border-radius:8px;
+}
+
+#artistInformation{
+
+  position: relative;
+  margin-top: 50%;
+  margin-left:0%;
+  width:auto;
+  font-size: 20px;
+  color:white;
+}
+#artistInformation a{
+  width:100%;
+  text-decoration: underline;
+}
+#artistInformation h3{
+  text-align: center;
+  text-decoration: underline;
+}
+#artistInformation p{
+  text-align: center;
+  margin-top:0;
+
+}
+
+#artistArtworks{
+
+
+    height:auto;
+    padding:0.5%;
+    width:97%;
+}
+#artistArtworks a{
+  width:100%;
+  text-decoration: underline;
+}
+#artistArtworks h3{
+  text-align: center;
+  text-decoration: underline;
+}
+#artistArtworks p{
+  text-align: center;
+  margin-top:0;
+
+}
+
+#random{
+border-radius: 90px;
+border: solid black 2px;
+vertical-align: top;
+    display: inline-block;
+}
+#random:hover~.text{
+  opacity:1;
+ transition:opacity 1s;
+ transition-timing-function: ease-in-out;
+}
+
+#buttonDiv{
+float:left;
+}
+.text{
+  font-size:16px;
+  float:left;
+  margin-top:10%;
+  opacity:0;
+
+
+}
+#buttonDiv{
+  position: absolute;
+}
+
+input[type=text] {
+    width: 60%;
+    margin-left:20%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+#searchArtists{
+  float:left;
+
+  margin-top:5%;
+  margin-left:40%;
+  border-radius:20px;
+  width:20%;
+  height:10%;
+  position:relative;;
+  background: linear-gradient(grey, black); /* Standard syntax */
+
+  color:white;
+  font-size: 20px;
+}
+#searchbar{
+  margin-top:5%;
+}

@@ -1,0 +1,31 @@
+<div id ="main_header">
+  <div id ="explore_header1">
+
+    {{#each mainArt}}
+      <h3 id = "oneArtistH3">{{all_artists}}</h3>
+      <a class ="image_selection" href="#" id ="{{thumbnailUrl}}" name ="{{all_artists}}" alt="{{title}}">
+
+          <figure id =image_wrapper_home>
+            <img src="{{thumbnailUrl}}" id ="{{thumbnailUrl}}" alt="{{title}}">
+          </figure>
+
+        </a>
+
+        <p id="oneArtist"> {{all_artists}}</p>
+        <p id="oneArtist"> {{totalWorks}}</p>
+        <p id="oneArtist"> {{title}}</p>
+    {{/each}}
+
+
+        {{#each extraArt}}
+            <a class ='image_selection' href='#' id ={{thumbnailUrl}} name ={{all_artists}} alt={{title}}>
+              <figure id ="image_wrapper">
+                <img class ='img' src="{{thumbnailUrl}}" id ="{{thumbnailUrl}}" alt="{{title}}">
+                <p id='artist_name'>"{{all_artists}}"</p>
+              </figure>
+            </a>
+
+
+        {{/each}}
+</div>
+</div>

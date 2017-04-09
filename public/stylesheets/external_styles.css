@@ -1,0 +1,124 @@
+body {
+  width:100%;
+  padding:0;
+  height:100%;
+  background-color: #262626;
+  margin: 0%;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+/* Fonts */
+@font-face {
+    font-family: geosanslight;
+    src: url(/fonts/geo-sans-light/GeosansLight.ttf);
+}
+
+@font-face {
+    font-family: playfair;
+    src: url(/fonts/playfair-display/fontRegular.otf);
+}
+@font-face {
+    font-family: cormorant;
+    src: url(/fonts/cormorant/Cormorant-Regular.otf);
+}
+
+/* filters on images */
+.none{
+  float:left;
+  margin-left: 2%;
+  filter: hue-rotate(0deg);
+}
+.greyscale{
+  float:left;
+  margin-left: 2%;
+  filter: grayscale(100%);
+}
+.sepia{
+  float:left;
+  margin-left: 2%;
+  filter:sepia(100%);
+}
+.blur{
+  float:left;
+  margin-left: 2%;
+  filter: blur(2px);
+}
+.saturate{
+  float:left;
+  margin-left: 2%;
+  filter: saturate(8);
+}
+.invert{
+  float:left;
+  margin-left: 2%;
+  filter: invert(.8);
+}
+.opacity{
+  float:left;
+  margin-left: 2%;
+  filter: brightness(100%);
+   filter: opacity(.3);
+}
+
+.hue{
+  float:left;
+  margin-left: 2%;
+  filter: hue-rotate(250deg);
+}
+.contrast{
+  float:left;
+  margin-left: 2%;
+  filter: contrast(4);
+}
+/* buttons for changing theme */
+#switcher {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  width:100px;
+  background-color: white;
+  padding: 0;
+  overflow: hidden;
+}
+#switcher li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+#switcher ul {
+width:auto;
+}
+
+#orangeButton{
+  background: #C65652;
+}
+#bluebButton{
+  background: #A1C0C6;
+}
+#purpleButton{
+  background:#353E67;
+}
+#blackgreyButton {
+  background: #262626;
+}
+#whiteButton {
+  background: white;
+}
+#blackButton {
+  background: black;
+}
+#darkGreenButton {
+  background: #5C4C32;
+}
+#greenButton {
+  background: #C8C32C;
+}
+#blueButton {
+  background: #416BA6;
+}
+#redOrangeButton {
+  background: #DE7163;
+}
