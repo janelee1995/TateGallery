@@ -1,3 +1,5 @@
+- Awaiting result
+
 # TateGallery
 Final year assignment using Node.js and mongoDB. Assignment involved recreating the Tate Gallery website to show an aesthetically pleasing view. 3 pieces of functionality were needed for the assignment, however this site includes 4 features which include:
 
